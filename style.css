@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     color: #eee;
     background-color: #222;
     /* background-color: #60b347; */
@@ -101,15 +101,17 @@ h1 {
     font-family: inherit;
     padding: 2rem 3rem;
     cursor: pointer;
+    border-radius: 3.5rem;
 }
 
 .btn:hover {
-    background-color: #ccc;
+    background-color: rgb(204, 204, 204);
 }
 
 .message {
     margin-bottom: 8rem;
     height: 3rem;
+    font-size: 50px;
 }
 
 .label-score {
